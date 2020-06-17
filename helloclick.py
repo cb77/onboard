@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 import click
 
+var = 
+
 @click.command()
 def hello():
     """This is a hello world cli:
