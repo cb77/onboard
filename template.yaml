@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Description: An AWS Serverless Specification template describing your function.
+Resources:
+  onboard:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      FunctionName: onboard
+      Description: ''
+      Handler: lambda_function.lambda_handler
+      MemorySize: 128
+      Role: 'arn:aws:iam::913928546816:role/service-role/onboard-role-hnsnbdwq'
+      Runtime: python3.6
+      Timeout: 3
